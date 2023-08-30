@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>What Can JS do?</title>
+  </head>
+  <body>
+    <h2 style="font-family: montserrat; font-size: 160%">
+      What Can JavaScript Do?
+    </h2>
+    <h3>Look this:</h3>
+    <p id="demo">JavaScript can change HTML content</p>
+    <button
+      style="color: purple"
+      type="button"
+      onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'
+    >
+      Click Me!
+    </button>
+    <hr />
+
+    <p id="demo2">JavaScript can change the style of an HTML element.</p>
+    <button
+      type="button"
+      onclick="document.getElementById('demo2').style.fontSize='35px'"
+    >
+      Click Me!
+    </button>
+    <hr />
+
+    <p id="demo3">JavaScript can hide HTML elements.</p>
+    <button type="button"
+    onclick="document.getElementById('demo3').style.display='none'">Click Me!</button>
+  </body>
+</html>

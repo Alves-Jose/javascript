@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
+    <script>
+      function myFunction() {
+        document.getElementById("demo4").innerHTML = "Paragraph changed.";
+      }
+    </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>What Can JS do?</title>
@@ -30,7 +35,26 @@
     <hr />
 
     <p id="demo3">JavaScript can hide HTML elements.</p>
-    <button type="button"
-    onclick="document.getElementById('demo3').style.display='none'">Click Me!</button>
+    <button
+      type="button"
+      onclick="document.getElementById('demo3').style.display='none'"
+    >
+      Click Me!
+    </button>
+    <hr />
+
+    <h2>Demo Function in Head</h2>
+
+    <p id="demo4">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta pariatur
+      debitis accusantium consectetur praesentium vitae fugit vel atque,
+      doloribus omnis. Assumenda porro quo in consequatur quibusdam quasi
+      aperiam tempore nihil!
+    </p>
+
+    <button type="button" onclick="myFunction()">Try it</button>
+    <hr />
+
+    
   </body>
 </html>

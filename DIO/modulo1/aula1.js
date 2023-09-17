@@ -1,14 +1,7 @@
 let variable = 10;
 
+console.log(variable);
+
 variable = 20;
 
-const pi = 3.14;
-
-
-
-
-
-
-
-
-console.log('Hello World');
+console.log(variable);

@@ -5,8 +5,8 @@
 //distância de km da viagem;
 //imprima no console o valor que será gasto para realizar esta viagem;
 
-let preco_combustivel = 5.14;
-let gasto_comb = 5;
-let dist = 200;
+const preco_combustivel = 5.14;
+const gasto_comb = 5;
+const dist = 200;
 
 valor_km = 

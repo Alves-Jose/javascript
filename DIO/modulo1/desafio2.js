@@ -7,11 +7,11 @@
 //distância de km da viagem;
 //imprima no console o valor que será gasto para realizar esta viagem;
 
-const preco_combustivel = 5.14;
+const preco_etanol= 5.14;
+const preco_gasolina = 6.40;
 const gasto_comb = 5;
 const dist = 200;
 
 const litros_consumidos = dist / gasto_comb;
 const total_gasto = litros_consumidos * preco_combustivel;
-
 console.log(total_gasto.toFixed(2));

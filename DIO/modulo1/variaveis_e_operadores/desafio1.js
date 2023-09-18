@@ -9,4 +9,7 @@ const preco_combustivel = 5.14;
 const gasto_comb = 5;
 const dist = 200;
 
-valor_km = 
+const litros_consumidos = dist / gasto_comb;
+const total_gasto = litros_consumidos * preco_combustivel;
+
+console.log(total_gasto.toFixed(2));

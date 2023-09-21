@@ -20,7 +20,7 @@ const peso = 120.0;
 const altura = 1.70;
 
 const imc = peso / (altura * altura);
-
+console.log(imc.toFixed(2));
 
     if (imc < 18.5) {
         console.log('Abaixo do peso.');

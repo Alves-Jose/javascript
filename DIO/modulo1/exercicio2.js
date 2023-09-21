@@ -14,9 +14,26 @@ IMC em adultos Condição:
 - Entre 25 e 30, Acima do peso;
 - Entre 30 e 40, Obeso;
 - Acima de 40, Obesidade Grave;
-
-
-
-
-
 */
+
+const peso = 120.0;
+const altura = 1.70;
+
+const imc = peso / (altura * altura);
+
+
+    if (imc < 18.5) {
+        console.log('Abaixo do peso.');
+    }
+
+    else if (imc >= 18.5 && imc <= 25){
+        console.log('Peso Normal');
+    }
+
+    else if (imc >= 30 && imc <= 40){
+        console.log('Obeso.');
+    }
+
+    else if (imc > 40){
+        console.log('Obesidade Grave');
+    }

@@ -34,5 +34,5 @@ if (formaPagamento === 1) {
 } else if (formaPagamento === 3) {
   console.log(precoEtiqueta);
 } else {
-    console.log(' ')
+    console.log(precoEtiqueta + (precoEtiqueta * 0.1));
 }

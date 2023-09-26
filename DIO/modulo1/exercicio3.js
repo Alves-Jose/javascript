@@ -11,7 +11,7 @@ Código Condição de Pagamento:
 - Acima de duas vezes, preço normal da etiqueta, mais 10% de juros;
 */
 
-const produto = 15.00;
+/*const produto = 15.00;
 
 const debito = 'Debito';
 const dinheiro = 'Dinheiro';
@@ -21,4 +21,18 @@ const duasvezes = 'Duas vezes'
 const descDebito = produto * (10 / 100);
 const descDinheiro = produto * (15 / 100);
 const descPix = produto * (15 / 100);
-const descDuasvezes = 
+const descDuasvezes = produto;
+const acimaDuasvezes = produto */
+
+const precoEtiqueta = 100;
+const formaPagamento = 1;
+
+if (formaPagamento === 1) {
+  console.log(precoEtiqueta - precoEtiqueta * 0.1);
+} else if (formaPagamento === 2) {
+  console.log(precoEtiqueta - precoEtiqueta * 0.15);
+} else if (formaPagamento === 3) {
+  console.log(precoEtiqueta);
+} else {
+    console.log(' ')
+}

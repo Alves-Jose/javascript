@@ -5,4 +5,5 @@ function quadrado(valor){
     return valor * valor;
 }
 
-quadrado(10);
+const quadradodeDez = quadrado(10);
+console.log(quadradodeDez);

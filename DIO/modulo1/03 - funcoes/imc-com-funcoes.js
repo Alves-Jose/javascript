@@ -21,9 +21,6 @@ function calcularimc(peso, altura) {
 }
 
 function classificarImc(imc) {
-  const imc = calcularimc(peso, altura);
-  console.log(imc.toFixed(2));
-
   if (imc < 18.5) {
     return "Abaixo do peso.";
   } else if (imc >= 18.5 && imc <= 25) {
@@ -35,8 +32,12 @@ function classificarImc(imc) {
   }
 }
 
-const peso = 120.0;
-const altura = 1.7;
+function main() {
+  const peso = 120.0;
+  const altura = 1.7;
 
-const imc = calcularimc(peso, altura);
-console.log(classificarImc(imc.toFixed(2)));
+  const imc = calcularimc(peso, altura);
+  console.log(classificarImc(imc.toFixed(2)));
+}
+
+main();

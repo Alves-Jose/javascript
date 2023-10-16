@@ -1,5 +1,5 @@
-function EscrevaMeuNome(nome){
-    console.log('Seu nome é: ' + nome);
+function escrevaMeuNome(nome){
+    console.log('Meu nome é: ' + nome)
 }
 
-EscrevaMeuNome ('Marcos');
+escrevaMeuNome(('José'));

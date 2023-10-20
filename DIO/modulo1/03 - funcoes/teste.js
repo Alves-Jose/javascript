@@ -11,7 +11,7 @@ function adicao(n1, n2){
 const soma = adicao(4, 1);
 console.log(soma);*/
 
-function parimpar(n){
+/*function parimpar(n){
     if (n % 2 == 0)
     return 'Par';
     else
@@ -20,4 +20,5 @@ function parimpar(n){
 
 const resp = parimpar(11);
 
-console.log(resp);
+console.log(resp);*/
+

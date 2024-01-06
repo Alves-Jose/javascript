@@ -1,24 +1,21 @@
 class person {
     name;
     age;
-  
+    birth_date;
+
+    constructor(name, age){
+        this.name = name;
+        this.age = age;
+        this.birth_date = 2024 - age;
+
+    }
+
     describe() {
       console.log(`Hi, my name is ${this.name} and I'm ${this.age} years old`);
     }
   }
   
   
-  const marcos = new person();
-  marcos.name = "José Marcos";
-  marcos.age = 0;
-  
+  const marcos = new person('José Marcos', 0);
+
   console.log(marcos);
-  
-  const renan = new person();
-  renan.name = "Renan Alves";
-  renan.age = "22";
-  
-  console.log(renan);
-  
-  marcos.describe();
-  renan.describe();

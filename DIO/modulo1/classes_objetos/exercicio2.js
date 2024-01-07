@@ -9,5 +9,10 @@ class Person{
         this.height = height;
     }
 
-    imc(name,weight)
+    imc(weight, height){
+      return  this.weight / (this.height * this.height);
+    }
 }
+
+const jose = new Person('José', 70, 1.75);
+

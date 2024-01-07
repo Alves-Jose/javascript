@@ -16,3 +16,4 @@ class Person{
 
 const jose = new Person('José', 70, 1.75);
 
+console.log(jose.imc());

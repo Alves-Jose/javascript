@@ -27,6 +27,6 @@ class Person {
   }
 }
 
-const jose = new Person("José", 70, 1.70);
+const jose = new Person("José", 0, 0);
 
 console.log(jose.classIMC());

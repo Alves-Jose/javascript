@@ -1,6 +1,6 @@
 
 function gets() {
-    return 50;
+    return 10;
 }
 
 function print (texto){

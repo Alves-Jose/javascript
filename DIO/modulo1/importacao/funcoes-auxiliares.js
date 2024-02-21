@@ -1,10 +1,14 @@
+const numbers = [5, 50, 10, 98, 23];
+let = i = 0;
 
 function gets() {
-    return 10;
+  const value = numbers[i];
+  i = i + 1;
+  return value;
 }
 
-function print (texto){
-    console.log(texto);
+function print(texto) {
+  console.log(texto);
 }
 
-module.exports = {gets , print};
+module.exports = { gets, print };

@@ -1,6 +1,8 @@
-const numero = prompt('Digite um número');
-const numeroTitulo = document.getElementById('numero-titulo');
-const texto = document.getElementById('texto');
+let numero = Number(prompt("Digite um número"));
+
+
+const numeroTitulo = document.getElementById("numero-titulo");
+const texto = document.getElementById("texto");
 
 numeroTitulo.innerHTML = numero;
-texto.innerHTML = `<p>Seu número -2 é ${numero - 2}</p>`
+texto.innerHTML = `<p>Seu número + 2 é ${numero + 2}</p>`;

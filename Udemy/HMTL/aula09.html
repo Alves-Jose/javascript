@@ -27,11 +27,13 @@
       }
 
       #heading {
+        display: flex;
         background: #e50914;
+        justify-content: space-between;
       }
 
-      #heading h1 a {
-        margin-top: 20px;
+      #heading .h1 {
+        padding: 15px;
         font-size: 20px;
         text-transform: uppercase;
       }
@@ -45,9 +47,14 @@
   </head>
   <body>
     <header id="heading">
-      <h1>
+      <h1 class="h1">
         <a href="#">Netflix</a>
       </h1>
+
+      <h2 class="h1">
+        <a href="#">Netflix</a>
+      </h2>
+
     </header>
   </body>
 </html>

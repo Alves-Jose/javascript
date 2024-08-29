@@ -67,6 +67,34 @@
         text-align: center;
         padding: 10px;
       }
+
+      .galeria-produtos {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 20px;
+        padding: 20px;
+      }
+
+      .produto {
+        background-color: #f9f9f9f9;
+        border: 1px solid #ccc;
+        padding: 15px;
+        text-align: center;
+      }
+
+      .produto img {
+        width: 100%;
+        height: auto;
+      }
+
+      .produto h3 {
+        margin: 10px 0 5px;
+      }
+
+      .produto p {
+        font-size: 14px;
+        color: #666;
+      }
     </style>
   </head>
   <body>
@@ -79,15 +107,44 @@
         </ul>
       </nav>
     </div>
-    <h1 style="padding: 80px; text-align: center; display: block">
-      Produtos Principais
-    </h1>
-    <p>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi aperiam
-      possimus blanditiis dolor, eveniet impedit, facilis pariatur aspernatur
-      eaque, nulla veniam? Recusandae quasi blanditiis distinctio molestiae
-      asperiores impedit vel reprehenderit?
-    </p>
+
+    <div>
+      <h1 style="padding: 30px; text-align: center; display: block">
+        Produtos Principais
+      </h1>
+    </div>
+
+    <div>
+      <p style="text-align: center; font-family: sans-serif">
+        Confira as novidades
+      </p>
+    </div>
+
+    <section class="galeria-produtos">
+      <div class="produto">
+        <img src="logo.jpg" alt="Nike" />
+        <h3>Nike</h3>
+        <p>Produtos</p>
+      </div>
+
+      <div class="produto">
+        <img src="logo.jpg" alt="Nike" />
+        <h3>Nike</h3>
+        <p>Produtos</p>
+      </div>
+
+      <div class="produto">
+        <img src="logo.jpg" alt="Nike" />
+        <h3>Nike</h3>
+        <p>Produtos</p>
+      </div>
+    </section>
+
+    <section class="formulario-contato">
+      <div>
+        
+      </div>
+    </section>
   </body>
 
   <footer class="rodape">

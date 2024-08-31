@@ -6,28 +6,48 @@
     <title>Document</title>
 
     <style>
-
       body {
         font-family: sans-serif;
       }
 
       table {
         border-collapse: collapse;
+        width: 100%;
       }
 
       table td,
       table th {
         border: 1px solid #ccc;
         padding: 5px;
+        text-align: left;
       }
 
-      table caption
+      table caption {
+        caption-side: bottom;
+        text-align: right;
+        font-style: italic;
+        font-size: 14px;
+        margin-bottom: 5px 0;
+      }
+
+      tfoot td,
+      table th {
+        background: #ddd;
+      }
+
+      tfoot td {
+        font-style: italic;
+      }
     </style>
   </head>
   <body>
     <p>lorem awaoidendao asdadwe</p>
 
     <table>
+      <caption>
+        Uma descrição para tabela
+      </caption>
+
       <thead>
         <tr>
           <th>Titulo 1</th>
@@ -43,8 +63,7 @@
           <td>Corpo 3</td>
         </tr>
         <tr>
-          <td>Corpo 1</td>
-          <td>Corpo 2</td>
+          <td colspan="2">AQUI</td>
           <td>Corpo 3</td>
         </tr>
         <tr>
@@ -53,6 +72,14 @@
           <td>Corpo 3</td>
         </tr>
       </tbody>
+
+      <tfoot>
+        <tr>
+          <td>Corpo 1</td>
+          <td>Corpo 2</td>
+          <td>Corpo 3</td>
+        </tr>
+      </tfoot>
     </table>
   </body>
 </html>

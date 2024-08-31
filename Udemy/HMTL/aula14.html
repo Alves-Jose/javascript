@@ -4,13 +4,81 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
+    <style>
+      label {
+        cursor: pointer;
+      }
+    </style>
   </head>
 
-  <body>
+  <body style="font-family: sans-serif">
     <form action="#" method="get" target="_blank" autocomplete="off">
       <p>O meu formulário</p>
       <p>
+        <label for="nome">Nome:</label>
         <input type="text" id="nome" name="nome" placeholder="Seu nome" />
+      </p>
+
+      <p>
+        <label for="dev1">Sou um dev1</label>
+        <input
+          type="checkbox"
+          id="dev1"
+          name="dev1"
+          value="sim"
+          checked
+        /><br />
+
+        <label for="dev2">Sou um dev2</label>
+        <input
+          type="checkbox"
+          id="dev2"
+          name="dev2"
+          value="sim"
+          checked
+        /><br />
+
+        <label for="dev3">Sou um dev3</label>
+        <input type="checkbox" id="dev3" name="dev3" value="sim" checked />
+      </p>
+
+      <p>
+        Gênero: <br />
+        <label for="feminino">feminino</label>
+        <input
+          type="radio"
+          id="feminino"
+          name="genero"
+          value="feminino"
+          checked
+        /><br />
+
+        <label for="masculino">masculino</label>
+        <input type="radio" id="masculino" name="genero" value="masculino" checked /><br />
+
+        <label for="outro">outro ou outra</label>
+        <input type="radio" id="outro" name="genero" value="outro" checked />
+      </p>
+
+      <p>
+        <label for="date">Date</label>
+        <input type="date" id="date" name="date" value="2020-04-20">
+      </p>
+
+      <p>
+        <label for="datetime">Datetime</label>
+        <input type="datetime-local" name="datetime" id="datetime" value="2020-04-20T20:00">
+      </p>
+
+      <p>
+        <label for="time">Time</label>
+        <input type="time" id="time" name="time" value="20:00:01">
+      </p>
+
+      <p>
+        <label for="cor">Cor Preferida</label>
+        <input type="color" id="cor" name="cor" value="#3212">
       </p>
 
       <p>

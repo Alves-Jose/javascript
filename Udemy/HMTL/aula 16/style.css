@@ -3,3 +3,11 @@
     padding: 0;
 }
 
+.color-red {
+    color: red;
+}
+
+.main-content .heading {
+    font-style: italic;
+    color: red;
+}

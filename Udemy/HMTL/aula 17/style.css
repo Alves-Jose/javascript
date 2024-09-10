@@ -1,8 +1,11 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-.pai {
-    
+.pai h1 + p {
+    color: red;
+}
+.pai p + h1{
+    color: yellow;
 }

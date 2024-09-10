@@ -1,0 +1,37 @@
+.heading {
+    transition: all 1s ease-in-out;
+}
+
+
+
+.heading:hover {
+    background: purple;
+}
+
+a {
+    color: darkorange;
+}
+
+a:link {
+    color: deeppink;
+}
+
+a:visited {
+    color: firebrick;
+}
+
+a:hover {
+    background: darkslateblue;
+    color: white;
+    text-decoration: none;
+}
+
+a:active {
+    background: darkslategray;
+    color: white;
+    text-decoration: none;
+}
+
+input:checked + p {
+    background: purple;
+}
